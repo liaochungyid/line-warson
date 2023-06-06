@@ -47,17 +47,9 @@ export default function RootLayout({
     <html lang="zh-TW" className={noto_sans_tc.className}>
       <body className="relative text-gray-900">
         <div
-          className="flex h-screen w-full items-center justify-center overflow-auto bg-cover p-global-container"
+          className="flex h-screen w-full items-center justify-center overflow-auto bg-gradient-to-br from-lime-300 via-teal-300 to-sky-300 bg-cover p-global-container"
           style={{ height: "100svh" }}
         >
-          <div className="absolute bottom-0 left-0 right-0 top-0 -z-10 h-full w-full brightness-75">
-            <img
-              src="/OLXA7357.webp"
-              alt="/OLXA7357.webp"
-              loading="lazy"
-              className="h-full w-full bg-gray-500 object-cover object-top"
-            />
-          </div>
           <main className="h-full w-full max-w-xl rounded-xl bg-white bg-opacity-50 px-5 py-8 backdrop-blur backdrop-filter">
             <div className="flex justify-between font-bold">
               <h2 className="text-2xl">🆔 Your Card | 你的卡片 </h2>

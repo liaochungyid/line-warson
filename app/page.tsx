@@ -8,18 +8,21 @@ export default function Home() {
   const [liffObject, setLiffObject] = useState<Liff | null>(null);
 
   // Execute liff.init() when the app is initialized
-  useEffect(() => {
-    // to avoid `window is not defined` error
-    liff
-      .init({ liffId: "1661348398" })
-      .then(() => {
-        console.log("liff.init() done");
-        setLiffObject(liff);
-      })
-      .catch((error) => {
-        console.log(`liff.init() failed: ${error}`);
-      });
-  }, []);
+  // useEffect(() => {
+  //   // to avoid `window is not defined` error
+  //   import("@line/liff")
+  //     .then((liff as Liff) => {
+  //       liff
+  //         .init({ liffId: "1661348398" })
+  //         .then(() => {
+  //           console.log("liff.init() done");
+  //           setLiffObject(liff);
+  //         })
+  //         .catch((error) => {
+  //           console.log(`liff.init() failed: ${error}`);
+  //         });
+  //     })
+  // }, []);
 
   return (
     <div className="card-content-profil flex items-center justify-between pt-3">
@@ -34,11 +37,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="card-action">
-        <button className="flex items-center bg-indigo-500 px-5 py-3 text-xs text-white hover:bg-indigo-700">
-          <span className="">Send</span>
-        </button>
-      </div>
+      <button className="flex items-center rounded bg-indigo-500 px-5 py-3 text-xs text-white transition-all duration-300 hover:bg-indigo-700">
+        <span className="">Send</span>
+      </button>
     </div>
   );
 }
