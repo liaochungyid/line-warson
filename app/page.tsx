@@ -48,7 +48,7 @@ export default function HomePage() {
                   size: "full",
                   aspectRatio: "20:18",
                   aspectMode: "cover",
-                  url: "https://github.com/liaochungyid/about-me/blob/main/public/illustration.jpg",
+                  url: "https://lsl-line.vercel.app/illustration.jpg",
                 },
                 body: {
                   type: "box",
@@ -101,7 +101,7 @@ export default function HomePage() {
                       contents: [
                         {
                           type: "icon",
-                          url: "https://imgur.com/a/XBReYxX",
+                          url: "https://lsl-line.vercel.app/icon-code.png",
                           size: "xxs",
                         },
                         {
@@ -115,7 +115,7 @@ export default function HomePage() {
                         },
                         {
                           type: "icon",
-                          url: "https://imgur.com/a/XBReYxX",
+                          url: "https://lsl-line.vercel.app/icon-code.png",
                           size: "xxs",
                         },
                         {
@@ -136,7 +136,7 @@ export default function HomePage() {
                       contents: [
                         {
                           type: "icon",
-                          url: "https://imgur.com/a/XBReYxX",
+                          url: "https://lsl-line.vercel.app/icon-code.png",
                           size: "xxs",
                         },
                         {
@@ -150,7 +150,7 @@ export default function HomePage() {
                         },
                         {
                           type: "icon",
-                          url: "https://imgur.com/a/XBReYxX",
+                          url: "https://lsl-line.vercel.app/icon-code.png",
                           size: "xxs",
                         },
                         {
@@ -215,7 +215,7 @@ export default function HomePage() {
                   size: "full",
                   aspectRatio: "20:18",
                   aspectMode: "cover",
-                  url: "https://imgur.com/a/t4Xydbd",
+                  url: "https://lsl-line.vercel.app/the-blog.png",
                 },
                 body: {
                   type: "box",
@@ -309,7 +309,7 @@ export default function HomePage() {
                   size: "full",
                   aspectRatio: "20:18",
                   aspectMode: "cover",
-                  url: "https://imgur.com/a/0umbmRX",
+                  url: "https://lsl-line.vercel.app/neumorphis.png",
                 },
                 body: {
                   type: "box",
@@ -355,7 +355,7 @@ export default function HomePage() {
                       contents: [
                         {
                           type: "text",
-                          text: "Unleashing Innovation, ",
+                          text: "Unleashing Innovation,",
                           size: "sm",
                           weight: "bold",
                         },
@@ -427,7 +427,7 @@ export default function HomePage() {
                   contents: [
                     {
                       type: "image",
-                      url: "https://imgur.com/a/SevhSJF",
+                      url: "https://lsl-line.vercel.app/do-more-code-purple.png",
                       gravity: "top",
                       aspectRatio: "5:8",
                       aspectMode: "cover",
@@ -462,8 +462,8 @@ export default function HomePage() {
                           type: "button",
                           action: {
                             type: "uri",
-                            label: "規劃實績",
-                            uri: "https://www.daching181.com/photoBookList.php",
+                            label: "名片頁面",
+                            uri: "https://lsl-line.vercel.app/",
                           },
                           style: "secondary",
                           height: "sm",
@@ -508,7 +508,7 @@ export default function HomePage() {
           alt=""
         />
         <div className="card-name-user text-xs">
-          <h3 className="font-semibold">Jeny Green</h3>
+          <h3 className="font-semibold">Lyle | 廖仲逸</h3>
         </div>
       </div>
 
@@ -517,7 +517,7 @@ export default function HomePage() {
         className="flex items-center rounded bg-indigo-500 px-5 py-3 text-xs text-white transition-all duration-300 hover:bg-indigo-700"
         onClick={handleSend}
       >
-        <span className="">Send</span>
+        <span className="">發送</span>
       </button>
     </div>
   );
