@@ -89,7 +89,7 @@ export default function HomePage() {
                           action: {
                             type: 'uri',
                             label: '分享給好友',
-                            uri: 'https://liaochungyid.github.io/line-warson/',
+                            uri: 'https://liff.line.me/1661426908-NZeBdZGD',
                           },
                           style: 'primary',
                           color: '#312E81E6',
