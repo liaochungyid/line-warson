@@ -39,7 +39,7 @@ export default function HomePage() {
       [
         {
           type: 'flex',
-          altText: '邱盛華的名片',
+          altText: 'Warson 電子名片',
           contents: {
             type: 'carousel',
             contents: [
