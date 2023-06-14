@@ -12,7 +12,7 @@ export default function HomePage() {
     // to avoid `window is not defined` error
     import('@line/liff').then(({ liff }) => {
       liff
-        .init({ liffId: '1661348398-21Woqg0R' })
+        .init({ liffId: '1661426908-NZeBdZGD' })
         .then(() => {
           console.log('liff.init() done');
           setLiffObject(liff);
@@ -39,7 +39,7 @@ export default function HomePage() {
       [
         {
           type: 'flex',
-          altText: "Lyle's 名片",
+          altText: '邱盛華的名片',
           contents: {
             type: 'carousel',
             contents: [

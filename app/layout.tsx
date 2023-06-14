@@ -1,36 +1,37 @@
-import type { Metadata } from "next";
-import { Noto_Sans_TC } from "next/font/google";
-import "@/styles/global.css";
+import type { Metadata } from 'next';
+import { Noto_Sans_TC } from 'next/font/google';
+import '@/styles/global.css';
+import Head from 'next/head';
 
 const noto_sans_tc = Noto_Sans_TC({
-  weight: ["100", "300", "400", "500", "700"],
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-noto-sans-tc",
+  weight: ['100', '300', '400', '500', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-noto-sans-tc',
   preload: true,
 });
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Lyle Stack Life",
-    default: "Home",
+    template: '%s | Lyle Stack Life',
+    default: 'Home',
   },
-  description: "Lyle Stack Life ",
-  generator: "Next.js",
-  applicationName: "Lyle Stack Life",
-  referrer: "origin-when-cross-origin",
+  description: 'Lyle Stack Life ',
+  generator: 'Next.js',
+  applicationName: 'Lyle Stack Life',
+  referrer: 'origin-when-cross-origin',
   keywords: [
-    "Lyle Stack Life",
-    "Lyle",
-    "Stack",
-    "Life",
-    "React",
-    "fullstack",
-    "javascript",
-    "nextjs",
+    'Lyle Stack Life',
+    'Lyle',
+    'Stack',
+    'Life',
+    'React',
+    'fullstack',
+    'javascript',
+    'nextjs',
   ],
-  colorScheme: "light",
-  creator: "Lyle Liao",
+  colorScheme: 'light',
+  creator: 'Lyle Liao',
   formatDetection: {
     email: false,
     address: false,
@@ -44,34 +45,41 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="zh-TW" className={noto_sans_tc.className}>
-      <body className="relative text-gray-900">
+    <html lang='zh-TW' className={noto_sans_tc.className}>
+      <Head>
+        <link
+          rel='shortcut icon'
+          href='line-warson/favicon.ico'
+          type='image/x-icon'
+        />
+      </Head>
+      <body className='relative text-gray-900'>
         <div
-          className="flex h-screen w-full items-center justify-center overflow-auto bg-gradient-to-br from-lime-300 via-teal-300 to-sky-300 bg-cover p-global-container"
-          style={{ height: "100svh" }}
+          className='flex h-screen w-full items-center justify-center overflow-auto bg-gradient-to-br from-lime-300 via-teal-300 to-sky-300 bg-cover p-global-container'
+          style={{ height: '100svh' }}
         >
-          <main className="h-full w-full max-w-xl rounded-xl bg-white bg-opacity-50 px-5 py-8 backdrop-blur backdrop-filter">
-            <div className="flex items-center gap-4 flex-col font-bold">
-              <h2 className="text-2xl">邱盛華 | Ｗarson</h2>
-              <h2 className="text-lg">電子名片分享</h2>
+          <main className='h-full w-full max-w-xl rounded-xl bg-white bg-opacity-50 px-5 py-8 backdrop-blur backdrop-filter'>
+            <div className='flex flex-col items-center gap-4 font-bold'>
+              <h2 className='text-2xl'>邱盛華 | Ｗarson</h2>
+              <h2 className='text-lg'>電子名片分享</h2>
             </div>
 
-            <div className="mt-5 flex flex-col gap-y-3 divide-y">
+            <div className='mt-5 flex flex-col gap-y-3 divide-y'>
               {children}
             </div>
           </main>
         </div>
 
-        <div className="fixed bottom-0 right-0 z-10 mb-4 mr-4 flex items-end justify-end">
+        <div className='fixed bottom-0 right-0 z-10 mb-4 mr-4 flex items-end justify-end'>
           <a
-            href="https://www.buymeacoffee.com/liaochungyid"
-            target="_blank"
-            className="overflow-hidden rounded-lg transition-all duration-300 hover:brightness-125"
+            href='https://www.buymeacoffee.com/liaochungyid'
+            target='_blank'
+            className='overflow-hidden rounded-lg transition-all duration-300 hover:brightness-125'
           >
             <img
-              src="/buy-me-a-bear.png"
-              alt="Buy Me A Bear"
-              className="h-[48px] w-[176px]"
+              src='/line-warson/buy-me-a-bear.png'
+              alt='Buy Me A Bear'
+              className='h-[48px] w-[176px]'
             />
           </a>
         </div>
