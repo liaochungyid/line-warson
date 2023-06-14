@@ -1,0 +1,584 @@
+{
+  "shareTargetPicker": {
+    "type": "flex",
+    "altText": "分享LINE電子名片",
+    "contents": {
+      "type": "carousel",
+      "contents": [
+        {
+          "type": "bubble",
+          "hero": {
+            "type": "image",
+            "size": "full",
+            "aspectRatio": "20:18",
+            "aspectMode": "cover",
+            "url": "https://wwooz.com/linecard-photo/1657636452-NblXj31e/daching_01.jpg"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "李銘崧  (北極雄)",
+                "wrap": true,
+                "weight": "bold",
+                "size": "xl"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "台灣大廚房餐飲設備發展協會理事",
+                    "wrap": true,
+                    "weight": "bold",
+                    "size": "md",
+                    "flex": 0,
+                    "color": "#999999"
+                  },
+                  {
+                    "type": "text",
+                    "text": "國際商務引薦平台",
+                    "wrap": true,
+                    "weight": "bold",
+                    "size": "md",
+                    "flex": 0,
+                    "color": "#999999"
+                  },
+                  {
+                    "type": "text",
+                    "text": "BNI長匯分會 第三會期主席",
+                    "wrap": true,
+                    "weight": "bold",
+                    "size": "md",
+                    "flex": 0,
+                    "color": "#999999"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://wwooz.com/linecard-photo/1657636452-NblXj31e/wwooz_02.png",
+                    "size": "xxs",
+                    "offsetTop": "1px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "新舊設備買賣 ",
+                    "size": "md",
+                    "color": "#231815",
+                    "wrap": true,
+                    "offsetStart": "2px"
+                  },
+                  {
+                    "type": "icon",
+                    "url": "https://wwooz.com/linecard-photo/1657636452-NblXj31e/wwooz_02.png",
+                    "offsetTop": "1px",
+                    "size": "xxs"
+                  },
+                  {
+                    "type": "text",
+                    "text": "爐具設計定製",
+                    "size": "md",
+                    "color": "#231815",
+                    "wrap": true,
+                    "offsetStart": "2px"
+                  }
+                ],
+                "offsetTop": "5px"
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://wwooz.com/linecard-photo/1657636452-NblXj31e/wwooz_02.png",
+                    "offsetTop": "1px",
+                    "size": "xxs"
+                  },
+                  {
+                    "type": "text",
+                    "text": "商用廚房規劃",
+                    "size": "md",
+                    "color": "#231815",
+                    "wrap": true,
+                    "offsetStart": "2px"
+                  },
+                  {
+                    "type": "icon",
+                    "url": "https://wwooz.com/linecard-photo/1657636452-NblXj31e/wwooz_02.png",
+                    "offsetTop": "1px",
+                    "size": "xxs"
+                  },
+                  {
+                    "type": "text",
+                    "text": "油煙淨化系統",
+                    "size": "md",
+                    "color": "#231815",
+                    "wrap": true,
+                    "offsetStart": "2px"
+                  }
+                ],
+                "offsetTop": "5px"
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "Line銘崧",
+                  "uri": "https://line.me/ti/p/s3Zzjj8rJG"
+                },
+                "color": "#e70012",
+                "height": "sm"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "分享給好友",
+                  "uri": "https://liff.line.me/1657503918-WYvKVXaj/?shareid=IcJOrXgAnkF11DU"
+                },
+                "style": "primary",
+                "color": "#e70012",
+                "height": "sm"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "打電話給銘崧",
+                  "uri": "tel:0933029660"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#e70012"
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "hero": {
+            "type": "image",
+            "size": "full",
+            "aspectRatio": "20:18",
+            "aspectMode": "cover",
+            "url": "https://wwooz.com/linecard-photo/1657636452-NblXj31e/daching_04.jpg"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "大慶餐飲設備服務群",
+                "wrap": true,
+                "weight": "bold",
+                "size": "xl"
+              },
+              {
+                "type": "text",
+                "text": "墩泰餐飲設備有限公司",
+                "wrap": true,
+                "weight": "bold",
+                "size": "xl"
+              },
+              {
+                "type": "text",
+                "text": "達慶餐飲設備展示廠",
+                "wrap": true,
+                "weight": "bold",
+                "size": "xl"
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "text",
+                "text": "新北巿八里區商港一路11-3號",
+                "wrap": true,
+                "size": "md",
+                "offsetTop": "5px",
+                "color": "#231815"
+              },
+              {
+                "type": "text",
+                "text": "統編：50968048",
+                "offsetTop": "5px"
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "官網",
+                  "uri": "https://daching181.com"
+                },
+                "color": "#E60012",
+                "height": "sm"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "撥打公司電話",
+                  "uri": "tel:0226108385"
+                },
+                "color": "#E60012",
+                "height": "sm"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "查看地圖",
+                  "uri": "https://goo.gl/maps/o5omyxXKRLXZmqT79"
+                },
+                "color": "#E60012",
+                "height": "sm"
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "hero": {
+            "type": "image",
+            "size": "full",
+            "aspectRatio": "20:18",
+            "aspectMode": "cover",
+            "url": "https://wwooz.com/linecard-photo/1657636452-NblXj31e/daching_05.jpg"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "樂趣餐廚器具",
+                "wrap": true,
+                "weight": "bold",
+                "size": "xl"
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "wrap": true,
+                    "weight": "bold",
+                    "size": "md",
+                    "flex": 0,
+                    "color": "#E60012",
+                    "text": "各類餐廚用品"
+                  }
+                ]
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "text",
+                "text": "家用商用餐廚五金、咖啡/冰品器具、餐廚用品、各類手作器具、生活逸品",
+                "wrap": true,
+                "size": "md",
+                "offsetTop": "5px",
+                "color": "#231815"
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "新北市中正區寧波西街176號",
+                    "size": "sm"
+                  }
+                ],
+                "offsetTop": "5px"
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "查看地圖",
+                  "uri": "https://goo.gl/maps/VKNuxLdbZZaxwuP29"
+                },
+                "color": "#E60012",
+                "height": "sm"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "撥打電話",
+                  "uri": "tel:0223045188"
+                },
+                "color": "#E60012",
+                "height": "sm"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "蝦皮賣場",
+                  "uri": "https://shopee.tw/daching_3q3q?categoryId=100636&itemId=14669323409"
+                },
+                "color": "#E60012",
+                "height": "sm"
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://wwooz.com/linecard-photo/1657636452-NblXj31e/daching_03.jpg",
+                "gravity": "top",
+                "aspectRatio": "5:8",
+                "aspectMode": "cover",
+                "size": "full",
+                "offsetTop": "0px",
+                "offsetStart": "0px",
+                "offsetEnd": "0px",
+                "offsetBottom": "0px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "提供全方位餐廚服務",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "weight": "bold",
+                    "align": "center",
+                    "offsetTop": "-10px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "規劃.設計.施工",
+                    "size": "md",
+                    "color": "#ffffff",
+                    "align": "center",
+                    "offsetBottom": "5px"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "規劃實績",
+                      "uri": "https://www.daching181.com/photoBookList.php"
+                    },
+                    "style": "primary",
+                    "height": "sm",
+                    "offsetTop": "10px",
+                    "color": "#e70012"
+                  }
+                ],
+                "position": "absolute",
+                "offsetBottom": "0px",
+                "offsetStart": "0px",
+                "offsetEnd": "0px",
+                "paddingAll": "20px",
+                "paddingTop": "25px"
+              }
+            ],
+            "paddingAll": "none",
+            "paddingTop": "none",
+            "paddingBottom": "none",
+            "paddingStart": "none",
+            "paddingEnd": "none"
+          },
+          "styles": {
+            "body": {
+              "backgroundColor": "#000000"
+            }
+          }
+        },
+        {
+          "type": "bubble",
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://wwooz.com/linecard-photo/1657636452-NblXj31e/daching_02_4.jpg",
+                "gravity": "top",
+                "aspectRatio": "5:8",
+                "aspectMode": "cover",
+                "size": "full",
+                "offsetTop": "0px",
+                "offsetStart": "0px",
+                "offsetEnd": "0px",
+                "offsetBottom": "0px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "讓廚師快樂的做菜",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "weight": "bold",
+                    "align": "center",
+                    "offsetTop": "-10px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "餐飲夥伴們最好的設備商",
+                    "size": "md",
+                    "color": "#ffffff",
+                    "align": "center",
+                    "offsetBottom": "5px"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "關於大慶",
+                      "uri": "https://www.daching181.com/about.php"
+                    },
+                    "style": "primary",
+                    "height": "sm",
+                    "offsetTop": "10px",
+                    "color": "#e70012"
+                  }
+                ],
+                "position": "absolute",
+                "offsetBottom": "0px",
+                "offsetStart": "0px",
+                "offsetEnd": "0px",
+                "paddingAll": "20px",
+                "paddingTop": "25px"
+              }
+            ],
+            "paddingAll": "none",
+            "paddingTop": "none",
+            "paddingBottom": "none",
+            "paddingStart": "none",
+            "paddingEnd": "none"
+          },
+          "styles": {
+            "body": {
+              "backgroundColor": "#000000"
+            }
+          }
+        },
+        {
+          "type": "bubble",
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://wwooz.com/linecard-photo/1657636452-NblXj31e/daching_06.jpg",
+                "gravity": "top",
+                "aspectRatio": "2:3",
+                "aspectMode": "cover",
+                "size": "full",
+                "offsetTop": "0px",
+                "offsetStart": "0px",
+                "offsetEnd": "0px",
+                "offsetBottom": "0px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "大慶餐飲設備服務群自1999年成立至今，服務眾多餐飲，客戶其中不乏知名餐飲集團，規劃設計安全的工作環境保護使用者，符合建管.環保.法規。",
+                    "size": "md",
+                    "color": "#ffffff",
+                    "offsetBottom": "5px",
+                    "wrap": true
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "大慶粉絲專頁",
+                      "uri": "https://www.facebook.com/bear5858/"
+                    },
+                    "style": "primary",
+                    "height": "sm",
+                    "offsetTop": "10px",
+                    "color": "#e70012"
+                  }
+                ],
+                "position": "absolute",
+                "offsetBottom": "0px",
+                "offsetStart": "0px",
+                "offsetEnd": "0px",
+                "paddingAll": "20px",
+                "paddingTop": "25px"
+              }
+            ],
+            "paddingAll": "none",
+            "paddingTop": "none",
+            "paddingBottom": "none",
+            "paddingStart": "none",
+            "paddingEnd": "none"
+          },
+          "styles": {
+            "body": {
+              "backgroundColor": "#000000"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
