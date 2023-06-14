@@ -51,8 +51,9 @@ export default function RootLayout({
           style={{ height: "100svh" }}
         >
           <main className="h-full w-full max-w-xl rounded-xl bg-white bg-opacity-50 px-5 py-8 backdrop-blur backdrop-filter">
-            <div className="flex justify-between font-bold">
-              <h2 className="text-2xl">🆔 Your Card | 你的卡片 </h2>
+            <div className="flex items-center gap-4 flex-col font-bold">
+              <h2 className="text-2xl">邱盛華 | Ｗarson</h2>
+              <h2 className="text-lg">電子名片分享</h2>
             </div>
 
             <div className="mt-5 flex flex-col gap-y-3 divide-y">
